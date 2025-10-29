@@ -5,8 +5,8 @@ venv/
 __pycache__/
 *.pyc
 
-# Ignorar los "checkpoints" de Jupyter
+# Ignorar los checkpoints de Jupyter
 .ipynb_checkpoints/
 
-# ¡Lo más importante! Ignorar nuestro archivo de secretos
+# Ignorar nuestro archivo 
 config.py
