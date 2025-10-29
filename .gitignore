@@ -1,0 +1,12 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar los archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Ignorar los "checkpoints" de Jupyter
+.ipynb_checkpoints/
+
+# ¡Lo más importante! Ignorar nuestro archivo de secretos
+config.py
