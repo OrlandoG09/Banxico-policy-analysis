@@ -22,4 +22,4 @@ def convertirDF(dataframe):
     dataframe["dato"]=pd.to_numeric(dataframe["dato"])
     dataframe=dataframe.set_index("fecha")
     return dataframe
-    sss
+    
