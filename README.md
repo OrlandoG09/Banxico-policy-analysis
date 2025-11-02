@@ -56,7 +56,7 @@ Para forzar al modelo a encontrar las palancas de política, el modelo final se 
 
 El análisis de `feature_importance_` del modelo final reveló los siguientes hallazgos:
 
-**(Pega aquí tu imagen usando el Método 2 - Issues - para obtener la URL)**
+
 ![Reporte de Importancia de Variables](./image.png)
 
 * **TCLag_3M (Tipo de Cambio, 3 meses): 52.0%**
