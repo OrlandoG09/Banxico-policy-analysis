@@ -18,8 +18,9 @@ def banco_mexico(token,serie,fecha_inicio,fecha_fin):
 
 #Funcion para convertir las fechas en datatime para DF y convertir esas fechas en los indices del df
 def convertirDF(dataframe):
-    dataframe["fecha"]=pd.to_datetime(dataframe["fecha"])
+    dataframe["fecha"]=pd.to_datetime(dataframe["fecha"], format="%d/%m/%Y")
     dataframe["dato"]=pd.to_numeric(dataframe["dato"])
     dataframe=dataframe.set_index("fecha")
     return dataframe
+
     
